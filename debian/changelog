@@ -1,3 +1,23 @@
+node-commondir (1.0.1+~1.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-commondir: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop dependency to nodejs
+  * Embed typescript declarations and repack
+
+ -- Yadd <yadd@debian.org>  Wed, 29 Dec 2021 18:57:34 +0100
+
 node-commondir (1.0.1-2) unstable; urgency=medium
 
   * Team upload
